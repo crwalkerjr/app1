@@ -7,7 +7,7 @@ $navbar-inverse-link-color:  #7f8c8d;
 $navbar-inverse-brand-color: #7f8c8d;
 $brand-primary:              #7f8c8d;
 $navbar-height:              45px;
-$jumbotron-bg:               #8e44ad;
+$jumbotron-bg:               #ecf0f1;
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
@@ -18,4 +18,24 @@ $jumbotron-bg:               #8e44ad;
 
 .navbar-brand {
 	font-weight: bold;
+}
+
+.checkbox input[type='checkbox'] {
+	margin-left: 0;
+}
+
+.alert-success {
+	color: #ecf0f1;
+}
+
+.alert-info {
+	color: #ecf0f1;
+}
+
+.alert-warning {
+	color: #ecf0f1;
+}
+
+.alert-danger {
+	color: #ecf0f1;
 }
